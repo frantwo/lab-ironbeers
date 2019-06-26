@@ -67,6 +67,7 @@ footer {
 
 .container {
     margin-top: 80px;
+    margin-bottom: 300px;
 }
 
 #randomImg {
@@ -83,4 +84,45 @@ footer {
     width: 400px;
     font-size: 1.2em;
     text-align: justify;
+}
+
+.container {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beersRandom-img {
+    width: 160px;
+    height: 500px;
+    margin-top: 10px;
+}
+
+
+/* 
+.beersRandoms-img img {
+    height: 100px;
+} */
+
+.beersRandoms {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 50vh;
+    margin-left: 10vh;
+}
+
+.beersRandoms h4 {
+    margin: 3vh 0;
+    margin-top: 1vh;
+    color: rgba(145, 145, 145, 0.481);
+}
+
+.beersRandoms p {
+    font-size: 1.2rem;
+}
+
+.brewer-bold {
+    font-weight: bold;
 }
